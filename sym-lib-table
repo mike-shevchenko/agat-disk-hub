@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "agat_disk_adapter") (type "KiCad") (uri "${KIPRJMOD}/agat_disk_adapter.kicad_sym") (options "") (descr ""))
+	(lib (name "agat-lib") (type "KiCad") (uri "${AGAT_LIB}/agat-lib.kicad_sym") (options "") (descr ""))
+)
