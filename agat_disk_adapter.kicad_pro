@@ -79,43 +79,43 @@
       "drc_exclusions": [
         [
           "silk_overlap|45846392|92000000|53a9de51-8069-45c9-a632-f9f70faf5015|face33ca-86dd-4df1-905e-73d0f5f7b0b2",
-          "Experiment let's see how the dangling horizontal strroke of `4` will approach a nearby line."
+          "Experiment"
         ],
         [
           "silk_overlap|48580000|58960000|382fe657-7c84-495a-9214-60dd639007bb|d2ab43db-2dd4-4783-949a-5bcfc5987034",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|55750000|60210000|382fe657-7c84-495a-9214-60dd639007bb|6a54d82a-b16f-407c-b6fc-0e182868f1e4",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|55750000|60210000|382fe657-7c84-495a-9214-60dd639007bb|acb90181-901d-4aa9-b938-93cb883a0ade",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|59325351|90009726|4f7bc114-6c35-40a1-b258-bd82d758016b|fb231c78-37ac-4e84-95c0-48f7d3fc6f37",
-          "Experiment - will see how it manufactures."
+          "Experiment"
         ],
         [
-          "silk_overlap|64205714|50912107|69abcbc6-6b18-47e1-b88b-e1996b418e71|7bcca552-f44a-47ff-bd28-76d72354da1c",
-          ""
+          "silk_overlap|64205714|50722107|69abcbc6-6b18-47e1-b88b-e1996b418e71|7bcca552-f44a-47ff-bd28-76d72354da1c",
+          "Experiment"
         ],
         [
           "silk_overlap|88580000|58960000|a63350d0-3904-410a-a003-8e8c3fd0a22c|d2ab43db-2dd4-4783-949a-5bcfc5987034",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|89030000|60210000|0cff23d6-7c98-4bb4-8621-47c25eb27941|a63350d0-3904-410a-a003-8e8c3fd0a22c",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|89030000|60210000|6a54d82a-b16f-407c-b6fc-0e182868f1e4|a63350d0-3904-410a-a003-8e8c3fd0a22c",
-          ""
+          "Intentional"
         ],
         [
           "silk_overlap|93004714|84555447|94010717-87ff-4579-8488-c354f8ab5c30|d6d66859-c302-4a08-8631-ae5a42f28580",
-          ""
+          "Intentional"
         ]
       ],
       "meta": {
