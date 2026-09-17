@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "AGAT DISK ADAPTER")
+		(date "2026-09")
+		(rev "V1")
+		(company "КИБЕР-МУЗЕЙ, МУРОМ - Михаил Шевченко - mike.shevchenko@gmail.com")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
