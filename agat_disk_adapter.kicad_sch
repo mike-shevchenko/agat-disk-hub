@@ -8,7 +8,7 @@
 		(title "AGAT DISK ADAPTER")
 		(date "2026-09")
 		(rev "V1")
-		(company "КИБЕР-МУЗЕЙ, МУРОМ")
+		(company "Михаил Шевченко mike.shevchenko@gmail.com КИБЕР-МУЗЕЙ, МУРОМ")
 		(comment 1 "- Подключение КНГМД - штатным кабелем, либо шлейфом с СНП34-30 на IDC-20,")
 		(comment 2 "- Сигнал \"Выбор Блока\" для 2-го дисковода (ВБ2) можно завести через -12|DE2.")
 		(comment 3 "- Назначение дисководов 1-м и 2-м можно выполнить джамперами либо тумблерами.")
@@ -7484,16 +7484,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 96.52) (xy 53.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13798948-5d6a-4eb9-b255-3506b87cb71c")
-	)
-	(wire
-		(pts
 			(xy 111.76 129.54) (xy 111.76 134.62)
 		)
 		(stroke
@@ -8004,16 +7994,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 55.626 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428a8de8-5c81-4d28-b4c7-a098f6233a53")
-	)
-	(wire
-		(pts
 			(xy 109.22 101.6) (xy 109.22 116.84)
 		)
 		(stroke
@@ -8061,6 +8041,16 @@
 			(type default)
 		)
 		(uuid "448bcfb7-790f-430e-8a90-0a225d7863f0")
+	)
+	(wire
+		(pts
+			(xy 48.26 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454d1982-7dc3-451a-b7c2-dcc6ac4d35e6")
 	)
 	(wire
 		(pts
@@ -8124,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 113.03) (xy 45.72 113.03)
+			(xy 54.61 113.03) (xy 45.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8134,7 +8124,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.626 99.06) (xy 55.626 104.14)
+			(xy 56.896 99.06) (xy 56.896 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8161,16 +8151,6 @@
 			(type default)
 		)
 		(uuid "4f17390e-d003-45b6-8237-72371fe85464")
-	)
-	(wire
-		(pts
-			(xy 48.26 106.68) (xy 53.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5022f2a7-13d5-4ada-9230-ca01619c703f")
 	)
 	(polyline
 		(pts
@@ -8211,16 +8191,6 @@
 			(type default)
 		)
 		(uuid "52c78b1f-b135-43d7-9f5a-e30707812377")
-	)
-	(wire
-		(pts
-			(xy 48.26 99.06) (xy 55.626 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53cf19fb-f196-4b02-8496-9cda7c840ec6")
 	)
 	(polyline
 		(pts
@@ -8442,6 +8412,16 @@
 		)
 		(uuid "6af388f4-1897-446a-b2bc-07d015905051")
 	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 56.896 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2fe791-2340-4852-b37d-f311dd76454d")
+	)
 	(polyline
 		(pts
 			(xy 65.4321 22.0377) (xy 65.4321 21.5877)
@@ -8614,16 +8594,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 101.6) (xy 53.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81cfe1f3-1fb4-42c8-92f1-596bc012a0ae")
-	)
-	(wire
-		(pts
 			(xy 119.38 129.54) (xy 119.38 134.62)
 		)
 		(stroke
@@ -8701,6 +8671,16 @@
 			(type default)
 		)
 		(uuid "8b32ba35-9378-45d4-a61f-6290194b1017")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 54.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b86a2ac-7c6a-4e88-b40c-eedba1f6fdab")
 	)
 	(wire
 		(pts
@@ -9002,6 +8982,16 @@
 		)
 		(uuid "b040a56b-9a34-4d71-8fe8-f9e24ee12292")
 	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 56.896 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14ea596-6800-47ab-aa30-9fb1b4e6ae5f")
+	)
 	(polyline
 		(pts
 			(xy 64.66 51.18) (xy 58.86 51.18)
@@ -9251,6 +9241,16 @@
 			(type default)
 		)
 		(uuid "c2a92a1c-8de8-4bc6-a13a-d42ae1149cda")
+	)
+	(wire
+		(pts
+			(xy 48.26 106.68) (xy 54.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3af3dc2-99aa-4a8d-926e-1afdaf06bb2c")
 	)
 	(polyline
 		(pts
@@ -10143,7 +10143,7 @@
 		(uuid "267affc5-e1ff-4b04-a92e-4e1e4c65eda9")
 	)
 	(label "DE1"
-		(at 53.34 99.06 180)
+		(at 54.61 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10273,7 +10273,7 @@
 		(uuid "583da726-eb1d-41fe-bb65-d63e8dcfe5e1")
 	)
 	(label "XS1.DE"
-		(at 53.34 96.52 180)
+		(at 54.61 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10383,7 +10383,7 @@
 		(uuid "77ed6011-556e-482e-b9d4-08f7ddb9e30a")
 	)
 	(label "+5"
-		(at 53.34 113.03 180)
+		(at 54.61 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10393,7 +10393,7 @@
 		(uuid "7d472b98-33dd-4829-9717-ffc1ae6eb928")
 	)
 	(label "J3.DE"
-		(at 53.34 106.68 180)
+		(at 54.61 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10673,7 +10673,7 @@
 		(uuid "d7194ae2-57e8-45d5-a0f9-f56a4969a7e7")
 	)
 	(label "J2.DE"
-		(at 53.34 101.6 180)
+		(at 54.61 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10693,7 +10693,7 @@
 		(uuid "d88be2c2-4a50-4f7d-9b29-9b3f3022a725")
 	)
 	(label "PH3"
-		(at 109.22 139.573 270)
+		(at 109.22 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10733,7 +10733,7 @@
 		(uuid "e607122a-750f-4d59-951a-5a9382ff4fe3")
 	)
 	(label "DE1"
-		(at 53.594 104.14 180)
+		(at 54.864 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10867,7 +10867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "agat_disk_adapter:Eltra-26M"
 			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11094,7 +11094,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "38c42535-6cf9-49e7-8c22-aea14c5b3c51")
-		(property "Reference" "~"
+		(property "Reference" "XS404"
 			(at 15.875 60.325 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11242,7 @@
 		(instances
 			(project "agat_disk_adapter"
 				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "~")
+					(reference "XS404")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "agat_disk_adapter:Eltra-26F"
 			(at 91.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12355,7 +12355,7 @@
 				)
 			)
 		)
-		(property "Value" "PLS-2"
+		(property "Value" "PLS‐2"
 			(at 128.27 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12643,7 @@
 				)
 			)
 		)
-		(property "Value" "PLS-1"
+		(property "Value" "PLS‐1"
 			(at 129.54 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12893,7 +12893,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "946650e2-797e-48d8-a22e-b2235a8645cd")
-		(property "Reference" "~"
+		(property "Reference" "XS404"
 			(at 15.875 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -13041,7 +13041,7 @@
 		(instances
 			(project "agat_disk_adapter"
 				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "~")
+					(reference "XS404")
 					(unit 2)
 				)
 			)
@@ -13136,7 +13136,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "aed890a5-2b38-42ef-9971-e801c4a3f695")
-		(property "Reference" "~"
+		(property "Reference" "XS404"
 			(at 15.875 29.845 0)
 			(hide yes)
 			(show_name no)
@@ -13284,7 +13284,7 @@
 		(instances
 			(project "agat_disk_adapter"
 				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "~")
+					(reference "XS404")
 					(unit 3)
 				)
 			)
@@ -13776,7 +13776,7 @@
 				)
 			)
 		)
-		(property "Value" "PLS-2"
+		(property "Value" "PLS‐2"
 			(at 128.27 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
