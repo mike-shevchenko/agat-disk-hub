@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A5" portrait)
 	(title_block
 		(title "AGAT DISK ADAPTER")
 		(date "2026-09")
