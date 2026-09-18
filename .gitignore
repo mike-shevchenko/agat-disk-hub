@@ -1,26 +1,23 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
+# Scoped to currently supported KiCad. Pre-6 artifacts are not generated any more and have
+# been dropped: *.000, *.bck, *-cache* (the v5 symbol cache), *.kicad_pcb-bak and
+# *.kicad_sch-bak (superseded by *-backups/*.zip), *-bak, *-bak*, _autosave-*,
+# \#auto_saved_files\#, *-save.pro and *-save.kicad_pcb (.pro was the v5 project format).
 
-# Temporary files
-*.000
+# Temporary and lock files
 *.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
+*.tmp
 *~
 ~*
-_autosave-*
-\#auto_saved_files\#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
 ~*.lck
-\#auto_saved_files#
+fp-info-cache
+
+# Backups and local history
+*-backups
+**/*-backups/*.zip
+_restore_backup_*/
+.history
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -32,12 +29,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local git-based history (KiCad 9.0+)
-.history
 
 # Local project settings
 *.kicad_prl
