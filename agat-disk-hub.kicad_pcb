@@ -8,7 +8,7 @@
 	)
 	(paper "A5" portrait)
 	(title_block
-		(title "AGAT DISK ADAPTER")
+		(title "AGAT DISK HUB")
 		(date "2026-09")
 		(rev "V1")
 		(company "КИБЕР-МУЗЕЙ, МУРОМ - Михаил Шевченко - mike.shevchenko@gmail.com")
@@ -118,7 +118,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "agat_disk_adapter:murom_museum_logo_agat_font"
+	(footprint "agat-disk-hub:murom_museum_logo_agat_font"
 		(layer "F.Cu")
 		(uuid "0b8e56bf-ad4f-4512-9a74-1c370e5ca472")
 		(at 51.92 58.88)
@@ -761,7 +761,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "agat_disk_adapter:Molex_KK-4_vertical_rotation0"
+	(footprint "agat-disk-hub:Molex_KK-4_vertical_rotation0"
 		(layer "F.Cu")
 		(uuid "0e4c575c-6c2f-47c8-9e9e-58463104d805")
 		(at 50.72 104.36)
@@ -845,7 +845,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5ca8b0dd-9605-4840-be8c-11f99bef2dae")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1078,7 +1078,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:murom_museum_logo_agat_font"
+	(footprint "agat-disk-hub:murom_museum_logo_agat_font"
 		(layer "F.Cu")
 		(uuid "193442d9-17b6-40b2-8a40-28004891578a")
 		(at 51.67 65.985)
@@ -1798,7 +1798,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "agat_disk_adapter:IDC-34_header_vertical_rotation0"
+	(footprint "agat-disk-hub:IDC-34_header_vertical_rotation0"
 		(layer "F.Cu")
 		(uuid "27beb8f8-0778-4c32-bc01-997ed30b075a")
 		(at 53.26 114.52)
@@ -1881,7 +1881,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/53f5b765-b083-41c6-8799-e1e3445ce1df")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2651,7 +2651,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/69f2b7cb-0641-47ba-8dd8-388c0a4bef3f")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2791,7 +2791,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:AGAT-LOGO-10mm-m-signature"
+	(footprint "agat-disk-hub:AGAT-LOGO-10mm-m-signature"
 		(layer "F.Cu")
 		(uuid "40412286-dff6-4e55-accc-89ab5a1f10e7")
 		(at 94.86 66.46)
@@ -2972,7 +2972,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "agat_disk_adapter:IDC-10_header_vertical_rotation270"
+	(footprint "agat-disk-hub:IDC-10_header_vertical_rotation270"
 		(layer "F.Cu")
 		(uuid "409a53bc-2bb5-48fe-87c9-7e80d69b2875")
 		(at 50.72 84.04)
@@ -3055,7 +3055,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/72b13bc7-ce3c-4718-99c5-fc66b12cedf2")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3489,7 +3489,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:IDC-20_header_vertical_rotation180"
+	(footprint "agat-disk-hub:IDC-20_header_vertical_rotation180"
 		(layer "F.Cu")
 		(uuid "41ab0d07-5a69-47ae-96e5-99dc608977e8")
 		(at 88.82 96.74)
@@ -3572,7 +3572,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5cce648d-075f-4c35-ba65-e8711ec1f14f")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4117,7 +4117,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:IDC-20_header_vertical_rotation180"
+	(footprint "agat-disk-hub:IDC-20_header_vertical_rotation180"
 		(layer "F.Cu")
 		(uuid "48b5a2ed-4f45-4fcb-ab5a-3c1e254778e6")
 		(at 88.82 81.5)
@@ -4200,7 +4200,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e6d27c51-56d0-4fd5-a929-53cdbd08ed09")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4741,7 +4741,7 @@
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "XT1"
-			(at 0 -2.41 0)
+			(at 1.23 -2.41 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "aadc6660-4866-4fe7-b22e-be50d73621a2")
@@ -4750,7 +4750,7 @@
 					(size 1.8 1.8)
 					(thickness 0.25)
 				)
-				(justify mirror)
+				(justify left mirror)
 			)
 		)
 		(property "Value" "PLS‐1"
@@ -4818,7 +4818,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/73354181-4aa2-486a-80a9-f10d5aecc442")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4947,22 +4947,22 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:jumper_pins_solder_drop_vertical"
+	(footprint "agat-disk-hub:jumper_pins_solder_drop_vertical"
 		(layer "F.Cu")
 		(uuid "7e70b688-2a79-45ab-9034-688a42590c6d")
 		(at 96.44 89.12 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, with support for 0R 1206 and solder drop")
 		(tags "Through hole pin header THT 1x02 2.54mm")
 		(property "Reference" "JP1"
-			(at 1.27 2.3 0)
+			(at -1.23 2.3 0)
 			(layer "B.SilkS")
-			(uuid "bc3abe24-8fbe-4481-a612-3921751832ae")
+			(uuid "ec1cc81a-05bf-4e65-bc16-5379a46a11d2")
 			(effects
 				(font
 					(size 1.8 1.8)
 					(thickness 0.25)
 				)
-				(justify mirror)
+				(justify left mirror)
 			)
 		)
 		(property "Value" "PLS‐2"
@@ -4970,7 +4970,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01f15c9b-b062-44ad-bea7-293976c40246")
+			(uuid "919bfce6-4da7-4865-b976-4fc9a06906a8")
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -4983,7 +4983,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb983d4e-8daa-4b97-a610-38d79d0b4126")
+			(uuid "ec2fedb9-1399-453c-9a75-fa774cbd7ce9")
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -4996,7 +4996,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74b4409b-7d92-497b-80d3-6ebb690c1b0f")
+			(uuid "e1263041-f938-41cc-b9ad-3fcd0cad9e68")
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -5030,7 +5030,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2feb6c6-502b-40ae-9b49-7208e8bd1081")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5253,7 +5253,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/77868f44-8ccd-4de6-a68d-a7e962991e5c")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5370,7 +5370,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:murom_museum_logo_agat_font"
+	(footprint "agat-disk-hub:murom_museum_logo_agat_font"
 		(layer "F.Cu")
 		(uuid "a9511a83-fae6-4085-8a98-730add793c00")
 		(at 95.24 58.88)
@@ -6134,7 +6134,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "agat_disk_adapter:Eltra-26M"
+	(footprint "agat-disk-hub:Eltra-26M"
 		(layer "F.Cu")
 		(uuid "ba38220d-8da1-4e46-86a2-fedfc48674f8")
 		(at 73.58 71.34)
@@ -6215,7 +6215,7 @@
 		)
 		(path "/0b1724f0-b806-45a6-90e3-a3adac7de213")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7111,14 +7111,14 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:jumper_pins_solder_drop_vertical"
+	(footprint "agat-disk-hub:jumper_pins_solder_drop_vertical"
 		(layer "F.Cu")
 		(uuid "e817d305-37f8-43c4-9003-a6bab64db58b")
 		(at 96.44 104.36 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, with support for 0R 1206 and solder drop")
 		(tags "Through hole pin header THT 1x02 2.54mm")
 		(property "Reference" "JP2"
-			(at 1.27 2.41 0)
+			(at -1.23 2.41 0)
 			(layer "B.SilkS")
 			(uuid "d9060013-b34d-4971-b90f-63e7ec15287a")
 			(effects
@@ -7126,7 +7126,7 @@
 					(size 1.8 1.8)
 					(thickness 0.25)
 				)
-				(justify mirror)
+				(justify left mirror)
 			)
 		)
 		(property "Value" "PLS‐2"
@@ -7194,7 +7194,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6ceaa564-fa5b-4a74-87aa-231166e63404")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7334,7 +7334,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:jumper_1206_solder_drop"
+	(footprint "agat-disk-hub:jumper_1206_solder_drop"
 		(layer "B.Cu")
 		(uuid "99ec82f1-67a0-4d47-8e9f-857e7001387a")
 		(at 65.96 104.36 180)
@@ -7410,7 +7410,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/71dd344e-2bbb-4576-a574-5d3e5d2159f4")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7495,7 +7495,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:Eltra-26F"
+	(footprint "agat-disk-hub:Eltra-26F"
 		(layer "B.Cu")
 		(uuid "9a355dd7-f555-4106-8f3e-3e4e0a1bfb2f")
 		(at 73.58 61.18 180)
@@ -7583,7 +7583,7 @@
 		)
 		(path "/4de88cf0-67a7-4ebf-9b9f-0e5051ae67e0")
 		(sheetname "/")
-		(sheetfile "agat_disk_adapter.kicad_sch")
+		(sheetfile "agat-disk-hub.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8465,7 +8465,7 @@
 			)
 		)
 	)
-	(footprint "agat_disk_adapter:AGAT-LOGO-10mm-m-signature"
+	(footprint "agat-disk-hub:AGAT-LOGO-10mm-m-signature"
 		(layer "B.Cu")
 		(uuid "a41e1af9-7095-4266-893c-ce5f62903384")
 		(at 52.318611 97.88 180)
@@ -9503,8 +9503,20 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "AGAT DISK ADAPTER"
-		(at 98.2 96.74 90)
+	(gr_text "GOTEK"
+		(at 48.92 104.44 90)
+		(layer "F.SilkS")
+		(uuid "27541254-f0a6-4547-bfc2-8f2082ea669b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "AGAT-DISK-HUB"
+		(at 98.22 96.74 90)
 		(layer "F.SilkS" knockout)
 		(uuid "d6d66859-c302-4a08-8631-ae5a42f28580")
 		(effects
@@ -9618,7 +9630,7 @@
 		)
 	)
 	(gr_text "V1 2026"
-		(at 96.86 96.66 90)
+		(at 96.88 96.66 90)
 		(layer "F.SilkS" knockout)
 		(uuid "94010717-87ff-4579-8488-c354f8ab5c30")
 		(effects
@@ -9708,6 +9720,19 @@
 		(at 49.86 94.25 0)
 		(layer "B.SilkS")
 		(uuid "1974cf15-00e7-40a8-8824-d7377f9bdec3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "DE2"
+		(at 97.67 80.74 0)
+		(layer "B.SilkS")
+		(uuid "7950a0cb-470a-41b1-855c-9ed3c85585f5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10269,19 +10294,6 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "DE2"
-		(at 96.44 80.75 0)
-		(layer "B.SilkS")
-		(uuid "7950a0cb-470a-41b1-855c-9ed3c85585f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify mirror)
-		)
-	)
 	(gr_text "+12"
 		(at 69.77 80.54 0)
 		(layer "B.SilkS")
@@ -10591,6 +10603,18 @@
 				(bold yes)
 			)
 			(justify right mirror)
+		)
+	)
+	(gr_text "MUSEUM.COMPUTER/RE/AGAT-DSK-HUB"
+		(at 98.81 117.26 270)
+		(layer "B.SilkS" knockout)
+		(uuid "06c91ad8-b8f5-454c-8835-693d51864807")
+		(effects
+			(font
+				(size 1.33 1.33)
+				(thickness 0.2)
+			)
+			(justify left mirror)
 		)
 	)
 	(segment

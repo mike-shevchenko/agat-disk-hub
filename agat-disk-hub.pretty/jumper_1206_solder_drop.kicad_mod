@@ -64,7 +64,7 @@
 	)
 	(property ki_fp_filters "R_*")
 	(sheetname "/")
-	(sheetfile "agat_disk_adapter.kicad_sch")
+	(sheetfile "agat-disk-hub.kicad_sch")
 	(attr smd exclude_from_bom dnp)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect

@@ -75,7 +75,7 @@
 	)
 	(property ki_fp_filters "Connector*:*_2x??_*")
 	(sheetname "/")
-	(sheetfile "agat_disk_adapter.kicad_sch")
+	(sheetfile "agat-disk-hub.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
