@@ -32,3 +32,6 @@ _restore_backup_*/
 
 # Local project settings
 *.kicad_prl
+
+# Generated release artifacts (ki-release)
+release/
