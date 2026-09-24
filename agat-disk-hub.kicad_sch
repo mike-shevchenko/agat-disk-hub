@@ -15,146 +15,6 @@
 		(comment 4 "Плата для подключения дисководов 140К и их эмуляторов к КНГМД Агат-7 и Apple 2.")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -7153,12 +7013,6 @@
 		(uuid "9fcd7da5-d860-4e0b-bc49-13d24a3ac708")
 	)
 	(junction
-		(at 111.76 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a68604c0-e9fa-4008-a2f4-eecfdd64202c")
-	)
-	(junction
 		(at 96.52 158.623)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7207,12 +7061,6 @@
 		(uuid "c71005a3-32b4-48a6-97eb-fc4c3220567f")
 	)
 	(junction
-		(at 111.76 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d086d4fd-0aef-4b91-ad3d-3221ba7f7a21")
-	)
-	(junction
 		(at 88.9 158.623)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7225,7 +7073,7 @@
 		(uuid "d150b800-6cdc-4779-aa4a-10959a679954")
 	)
 	(junction
-		(at 72.39 110.49)
+		(at 127 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3c6ed64-f3af-40f7-9ab6-a388b883e09b")
@@ -7444,16 +7292,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c2711ab-26d0-470d-8592-6fe7c8e2660a")
-	)
-	(wire
-		(pts
 			(xy 111.76 19.05) (xy 111.76 24.13)
 		)
 		(stroke
@@ -7541,6 +7379,16 @@
 			(type default)
 		)
 		(uuid "178c3ef4-3b34-40f8-b4c9-62639a03ae8a")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a828519-c47f-492c-a5a7-b5cd03706084")
 	)
 	(wire
 		(pts
@@ -7814,16 +7662,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 127 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30fe2094-d210-4ed4-ab84-7c51ec9d7203")
-	)
-	(wire
-		(pts
 			(xy 86.36 158.623) (xy 93.98 158.623)
 		)
 		(stroke
@@ -7844,7 +7682,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 72.39 110.49)
+			(xy 129.54 109.22) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7891,6 +7729,16 @@
 			(type default)
 		)
 		(uuid "36757eaa-6311-4529-ab93-3976cc5fe4f8")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c12581-611b-42b3-89ca-42f3c5c2b754")
 	)
 	(wire
 		(pts
@@ -7992,16 +7840,6 @@
 		)
 		(uuid "4284f868-2804-4104-8a07-4d4d99fdb208")
 	)
-	(wire
-		(pts
-			(xy 109.22 101.6) (xy 109.22 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c7ba44-564a-410e-80ca-0a39edb86598")
-	)
 	(polyline
 		(pts
 			(xy 15.2247 111.8443) (xy 15.2247 91.2643)
@@ -8011,16 +7849,6 @@
 			(type default)
 		)
 		(uuid "4384345d-2da5-447c-83f6-d1ed7235eff7")
-	)
-	(wire
-		(pts
-			(xy 111.76 80.01) (xy 111.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4445d53f-8548-4eda-8a2f-fcf0490b8067")
 	)
 	(wire
 		(pts
@@ -8171,16 +7999,6 @@
 			(type default)
 		)
 		(uuid "51144821-05a0-4b4b-a412-6906ad6ee677")
-	)
-	(wire
-		(pts
-			(xy 111.76 86.36) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5237e99b-a061-4254-b3f0-34aaf78b5d8f")
 	)
 	(wire
 		(pts
@@ -8572,6 +8390,16 @@
 		)
 		(uuid "77a229a0-3706-43ff-8067-c7cdd688746a")
 	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793e6b85-5d53-4320-a74a-152e93ec950d")
+	)
 	(polyline
 		(pts
 			(xy 32.89 146.27) (xy 83.95 146.27)
@@ -8692,16 +8520,6 @@
 		)
 		(uuid "8bcef68f-f192-4eab-a72b-f6d026ea6ce1")
 	)
-	(wire
-		(pts
-			(xy 111.76 114.3) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0c643f-05c7-4e22-81e4-f630e93a0de6")
-	)
 	(polyline
 		(pts
 			(xy 23.0347 110.5443) (xy 16.5347 110.5443)
@@ -8731,16 +8549,6 @@
 			(type default)
 		)
 		(uuid "925012e3-4b69-45b4-a4c2-48771b61de43")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 111.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93857b60-0752-4537-88e6-100694d2a54c")
 	)
 	(polyline
 		(pts
@@ -9432,16 +9240,6 @@
 		)
 		(uuid "d3566905-4c52-4e25-8535-9bf93df6bf46")
 	)
-	(wire
-		(pts
-			(xy 124.46 99.06) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38d3cfd-2292-4e22-ade3-9d3096ee5a5b")
-	)
 	(polyline
 		(pts
 			(xy 56.37 154.08) (xy 34.19 154.08)
@@ -9514,16 +9312,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 111.76) (xy 111.76 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8652200-bb77-4b10-9bb3-af10e7d08c75")
-	)
-	(wire
-		(pts
 			(xy 104.14 116.84) (xy 106.68 116.84)
 		)
 		(stroke
@@ -9562,16 +9350,6 @@
 		)
 		(uuid "d9d9349c-1af9-4ab5-bad0-1698edef15fd")
 	)
-	(wire
-		(pts
-			(xy 109.22 80.01) (xy 109.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc175ebc-981f-4f9f-9ad0-37244c56db5a")
-	)
 	(polyline
 		(pts
 			(xy 84.9321 16.1877) (xy 84.9321 15.7377)
@@ -9591,16 +9369,6 @@
 			(type default)
 		)
 		(uuid "de342386-6e02-433c-9381-6bd48cd8403d")
-	)
-	(wire
-		(pts
-			(xy 99.06 80.01) (xy 99.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de546761-58e2-43f2-bbe3-e31ba5ef4ee1")
 	)
 	(wire
 		(pts
@@ -9834,6 +9602,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 80.01) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f506475f-c7ee-4ff1-bd04-c0858a003ce9")
+	)
+	(wire
+		(pts
 			(xy 106.68 19.05) (xy 106.68 24.13)
 		)
 		(stroke
@@ -9861,6 +9639,16 @@
 			(type default)
 		)
 		(uuid "f81a1cd3-5feb-45ad-af57-e49abd43b473")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82d46f5-607d-4c6c-afc2-b74f75263bff")
 	)
 	(wire
 		(pts
@@ -9934,7 +9722,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 111.76 116.84)
+			(xy 111.76 111.76) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9991,6 +9779,16 @@
 			(justify left bottom)
 		)
 		(uuid "02537a02-b80a-460e-976f-a3539a782caf")
+	)
+	(label "-12"
+		(at 111.76 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "049e812b-7c93-44d0-a418-a849f82ce268")
 	)
 	(label "PH3"
 		(at 114.3 106.68 90)
@@ -10062,8 +9860,8 @@
 		)
 		(uuid "19a7aa19-505c-4fd2-8c72-7dbea326998d")
 	)
-	(label "-12|DE2"
-		(at 121.92 86.36 180)
+	(label "-12"
+		(at 111.76 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10283,7 +10081,7 @@
 		(uuid "5afb05b0-9ab1-48b5-90ec-2598b2785cfe")
 	)
 	(label "+5"
-		(at 109.22 83.82 270)
+		(at 109.22 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10293,7 +10091,7 @@
 		(uuid "5ef5253e-0542-4d02-b8df-4422f572a34f")
 	)
 	(label "+5"
-		(at 109.22 111.76 90)
+		(at 109.22 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10402,16 +10200,6 @@
 		)
 		(uuid "7dc2047f-8b3d-47a2-8dd6-470648f024bc")
 	)
-	(label "-12|DE2"
-		(at 111.76 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7ffa92af-5db1-47a2-a484-fea6acc33db6")
-	)
 	(label "+5"
 		(at 109.22 53.34 90)
 		(effects
@@ -10422,8 +10210,8 @@
 		)
 		(uuid "877cec62-e8b9-4687-95f6-65244c749b99")
 	)
-	(label "-12|DE2"
-		(at 111.76 49.53 0)
+	(label "-12"
+		(at 111.76 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10553,7 +10341,7 @@
 		(uuid "bffaec61-9ca4-470e-beb8-94baad0b889f")
 	)
 	(label "+12"
-		(at 99.06 83.82 270)
+		(at 99.06 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10581,16 +10369,6 @@
 			(justify left bottom)
 		)
 		(uuid "c34bab66-002f-4f9c-b806-5ee7be85181f")
-	)
-	(label "DE2"
-		(at 129.54 97.79 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4144128-82f4-4032-a72a-bff7501ed635")
 	)
 	(label "WRP"
 		(at 119.38 139.7 270)
@@ -12398,8 +12176,8 @@
 				)
 			)
 		)
-		(property "Function" "Ф1C→G.32"
-			(at 129.54 125.73 90)
+		(property "Function" "FW307"
+			(at 128.27 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12621,97 +12399,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 129.54 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73354181-4aa2-486a-80a9-f10d5aecc442")
-		(property "Reference" "XT1"
-			(at 129.54 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "PLS‐1"
-			(at 129.54 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "ВБ2"
-			(at 129.54 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 194 194 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d67b1b8-c149-49cf-9a5f-62ccf08ce7dc")
-		)
-		(instances
-			(project "agat-disk-hub"
-				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "XT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 67.31 107.95 0)
+		(at 129.54 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12720,8 +12409,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77868f44-8ccd-4de6-a68d-a7e962991e5c")
-		(property "Reference" "JP3"
-			(at 66.04 110.49 0)
+		(property "Reference" "JP1"
+			(at 128.27 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12730,22 +12419,20 @@
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PLS‐2"
-			(at 66.04 107.95 0)
+			(at 128.27 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 67.31 107.95 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,7 +12443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 107.95 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12767,7 +12454,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 67.31 107.95 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,8 +12464,8 @@
 				)
 			)
 		)
-		(property "Function" "ДЕРЖ. ДЖАМПЕРОВ"
-			(at 80.01 105.41 0)
+		(property "Function" "ДЕРЖ.ДЖ."
+			(at 129.54 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12786,7 +12473,6 @@
 					(size 1.27 1.27)
 					(color 0 194 194 1)
 				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -12798,7 +12484,7 @@
 		(instances
 			(project "agat-disk-hub"
 				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13370,7 +13056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 110.49 0)
+		(at 124.46 109.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13381,7 +13067,7 @@
 		(dnp no)
 		(uuid "bdcb47c9-cd84-4c67-bf3e-c93aeaeb1426")
 		(property "Reference" "#PWR07"
-			(at 72.39 116.84 0)
+			(at 124.46 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13392,7 +13078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 112.395 0)
+			(at 128.27 111.125 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13403,7 +13089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 110.49 0)
+			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13414,7 +13100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 110.49 0)
+			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,7 +13111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 110.49 0)
+			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13747,99 +13433,6 @@
 			(project "agat-disk-hub"
 				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 129.54 104.14 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2feb6c6-502b-40ae-9b49-7208e8bd1081")
-		(property "Reference" "JP1"
-			(at 128.27 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "PLS‐2"
-			(at 128.27 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "agat-disk-hub:jumper_pins_solder_drop_vertical"
-			(at 129.54 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 129.54 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "-12→ВБ2"
-			(at 129.54 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 194 194 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f89f1eb-b071-46e5-9aa8-e33399382305")
-		)
-		(pin "2"
-			(uuid "6af5eac1-b317-49d2-b6f9-523ad527012c")
-		)
-		(instances
-			(project "agat-disk-hub"
-				(path "/e6908ff4-84b7-4cdb-b4c1-fd2e829eca09"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
