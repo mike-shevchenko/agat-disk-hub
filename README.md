@@ -4,11 +4,7 @@ KiCad project of an adapter PCB for connecting up to 3 140K floppy drives to Aga
 
 KiCad-проект платы-переходника для подключения до 3-х дисководов 140К к компьтютерам Агат и Apple2.
 
-The Agat font used for the texts on the board's front mask resides here:
-
-Шрифт Агата, использованный для текстов на передней маске платы, здесь:
-
-https://github.com/mike-shevchenko/retro-tools/tree/master/fonts/
+Шрифт Агата, использованный для текстов на передней маске платы - в [Github-проекте ретро-шрифтов](https://github.com/mike-shevchenko/retro-tools/tree/master/fonts)
 
 ---------------------------------------------------------------------------------------------------
 ## Использование платы
